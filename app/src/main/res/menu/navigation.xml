@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trainer"
+        android:icon="@drawable/trainer"
+        android:title="Get Trainer" />
+
+    <item
+        android:id="@+id/bmi"
+        android:icon="@drawable/bmi"
+        android:title="BMI Calculator" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/trainer"
+        android:title="Edit Profile" />
+
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/trainer"
+        android:title="Sign Out" />
+
+
+
+
+
+</menu>

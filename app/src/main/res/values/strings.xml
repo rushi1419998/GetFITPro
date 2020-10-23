@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BuildBody</string>
+    <string name="title_activity_home">Home</string>
+    <string name="pelvic_text">Lie on your back with legs extended flat, and put one hand beneath your lower back. If the distance between your lower back and the ground is more then the width of three fingers,its an anterior pelvic tilt. </string>
+    <string name="bow_text">Genu varum, also called bow-leg, is a condition marked by outward bowing at the knee. Individuals with boww-leg can be measured with a 1.5 inch distance between their knees while both legs are straightened and ankles are in contact</string>
+    <string name="bodyweight">Bodyweight exercises are strength training exercises that use the individuals own weight to provide resistance against gravity. Bodyweight exercises can enhance a range of biomotor abilities including strength, power, endurance, speed, flexibility, coordination and balance. </string>
+    <string name="warmup">A warm up generally consists of a gradual increase in intensity in physical activity (a "pulse raiser"), joint mobility exercise, and stretching, followed by the activity. For example, before running or playing an intensive sport, athletes might slowly jog to warm their muscles and increase their heart rate.</string>
+    <string name="deskjob">When taking a break, encourage activities that get the body moving and the heart pumping, such as dancing, jumping, and running in place. You also can try some of these easy-to-do exercises that work on flexibility, strength, and cardio. No equipment is needed.</string>
+    <string name="title_activity_home_final">HomeFinal</string>
+    <string name="title_home">Home</string>
+    <string name="title_about">About Us</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_navigation_main">NavigationMain</string>
+    <string name="title_dashboard">Dashboard</string>
+
+
+</resources>
+

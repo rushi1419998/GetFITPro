@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forgot">
+
+
+        <RelativeLayout
+            android:id="@+id/firsttier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:adjustViewBounds="true"
+                android:src="@drawable/home1"
+                tools:ignore="NotSibling" />
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text="FORGOT"
+                android:textSize="@android:dimen/app_icon_size"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_below="@id/firsttier"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/TextInputLayoutAppearance"
+                app:errorEnabled="true">
+
+                <EditText
+                    android:id="@+id/useredit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="text" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/shapes"
+                android:layout_marginTop="20dp"
+                android:text="RESET" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>

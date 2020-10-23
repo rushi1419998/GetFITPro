@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Home"
+    tools:showIn="@layout/activity_home">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/l11"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/trainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Get\nTrainer"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/shapes"
+            android:textAllCaps="false"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/bmi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/trainer"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:textAllCaps="false"
+            android:text="BMI\nCalculator"
+            android:background="@drawable/shapes"
+            android:textSize="15dp"
+            android:layout_alignBaseline="@id/trainer"
+            />
+
+        <Button
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/bmi"
+            android:text="Edit\nProfile"
+            android:background="@drawable/shapes"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_alignBaseline="@id/trainer"
+            android:textAllCaps="false"
+            android:textSize="15dp"/>
+
+        <Button
+            android:id="@+id/signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/profile"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:text="Sign\nOut"
+            android:background="@drawable/shapes"
+            android:layout_alignBaseline="@id/profile"
+            android:textAllCaps="false"
+            android:textSize="15dp"/>
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="none"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/l11"
+            android:src="@drawable/home" />
+
+
+
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/images"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/youtubePlayerView"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="15dp"
+            android:id="@+id/posture"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/fit"
+            android:layout_below="@+id/youtubePlayerView"
+            android:layout_marginLeft="0dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Posture Correction"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/youtubePlayerView"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/weight"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/bodyweight"
+            android:layout_below="@id/youtubePlayerView"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="15dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bodyweight Training"
+        android:layout_marginLeft="227dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"/>
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/images1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/images"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/warm"
+                android:layout_width="200dp"
+                android:layout_height="190dp"
+                android:src="@drawable/wa"
+                android:layout_below="@+id/images" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warm Up"
+                android:layout_marginLeft="50dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorBlue"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/images"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/deskjob"
+                android:layout_width="200dp"
+                android:layout_height="185dp"
+                android:src="@drawable/deskjob"
+                android:layout_below="@id/images"
+                android:layout_marginLeft="220dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deskjob Workout"
+                android:layout_marginLeft="240dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorBlue"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/l3"
+            android:orientation="vertical"
+            android:layout_below="@+id/l2">
+
+
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/navigation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+
+                app:menu="@menu/navigation"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+

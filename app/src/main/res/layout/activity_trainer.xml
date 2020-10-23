@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trainer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trainers"
+                android:textSize="@android:dimen/app_icon_size"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/trainer1" />
+
+                <TextView
+                    android:id="@+id/trainer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@android:dimen/app_icon_size"
+                    android:text="Akash Gandhi"
+                    android:textSize="30dp"
+                    android:textColor="@color/trainer"/>
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/trainer1"
+                    android:layout_alignLeft="@id/imageView1"
+                    android:layout_marginLeft="166dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Experience : 5years"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/experience"
+                    android:layout_alignLeft="@id/imageView1"
+                    android:layout_marginLeft="166dp"
+                    android:text="Price : 4000/mo."
+                    android:textSize="16dp" />
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/price"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="89dp"
+                    android:text="Pay"
+                    android:background="@drawable/shapes"
+                    android:id="@+id/pay1"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dip"
+            android:layout_marginLeft="10dp"
+            android:background="@color/design_default_color_primary_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                   android:src="@drawable/trainer2" />
+
+                <TextView
+                    android:id="@+id/trainer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@android:dimen/app_icon_size"
+                    android:text="Ayushi Verma"
+                    android:textSize="30dp"
+                    android:textColor="@color/trainer"/>
+
+                <TextView
+                    android:id="@+id/experience1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/trainer2"
+                    android:layout_alignLeft="@id/imageView2"
+                    android:layout_marginLeft="166dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Experience : 3years"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/price1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/experience1"
+                    android:layout_alignLeft="@id/imageView2"
+                    android:layout_marginLeft="166dp"
+                    android:text="Price : 3000/mo."
+                    android:textSize="16dp" />
+
+
+                <Button
+                    android:id="@+id/pay2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/price1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="89dp"
+                    android:text="Pay"
+                    android:background="@drawable/shapes"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dip"
+            android:layout_marginLeft="10dp"
+            android:background="@color/design_default_color_primary_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/trainer4" />
+
+                <TextView
+                    android:id="@+id/trainer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@android:dimen/app_icon_size"
+                    android:text="Pavan Rajput"
+                    android:textSize="30dp"
+                    android:textColor="@color/trainer"/>
+
+                <TextView
+                    android:id="@+id/experience3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/trainer3"
+                    android:layout_alignLeft="@id/imageView3"
+                    android:layout_marginLeft="166dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Experience : 10years"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/price3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/experience3"
+                    android:layout_alignLeft="@id/imageView3"
+                    android:layout_marginLeft="166dp"
+                    android:text="Price : 6000/mo."
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/pay3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/price3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="89dp"
+                    android:text="Pay"
+                    android:background="@drawable/shapes"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dip"
+            android:layout_marginLeft="10dp"
+            android:background="@color/design_default_color_primary_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/trainer5" />
+
+                <TextView
+                    android:id="@+id/trainer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@android:dimen/app_icon_size"
+                    android:text="Ujwal Mittal"
+                    android:textSize="30dp"
+                    android:textColor="@color/trainer"/>
+
+                <TextView
+                    android:id="@+id/experience4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/trainer4"
+                    android:layout_alignLeft="@id/imageView4"
+                    android:layout_marginLeft="166dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Experience : 2years"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/price4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/experience4"
+                    android:layout_alignLeft="@id/imageView4"
+                    android:layout_marginLeft="166dp"
+                    android:text="Price : 2000/mo."
+                    android:textSize="16dp" />
+
+                <Button
+                    android:id="@+id/pay4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/price4"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="89dp"
+                    android:text="Pay"
+                    android:background="@drawable/shapes"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+

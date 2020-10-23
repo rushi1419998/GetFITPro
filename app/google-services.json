@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1074944334996",
+    "firebase_url": "https://adibgym-539a0.firebaseio.com",
+    "project_id": "adibgym-539a0",
+    "storage_bucket": "adibgym-539a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074944334996:android:132eb13617712c82",
+        "android_client_info": {
+          "package_name": "com.example.buildbody"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074944334996-bj2qmmfuo6idsh1cpk70ktg6mbm7dv8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuiFHX4wIIMOLAdpp9grsc1h5yE-XmZlw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

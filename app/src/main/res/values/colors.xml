@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBlue">#3949AB</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLightGrey">#BCBCC5</color>
+    <color name="colorSeaGreen">#2A0D6B</color>
+    <color name="colorPink">#CCDB32B1</color>
+    <color name="colorText">#290C17</color>
+    <color name="colorGreen">#7ED3B2</color>
+        <color name="user_input_color">#070707</color>
+        <color name="unfocused_color">#6F5A5E5E</color>
+        <color name="blue">#7C4DFF</color>
+        <color name="green">#84C937</color>
+    <color name="trainer">#00897B</color>
+    </resources>
+
+
+

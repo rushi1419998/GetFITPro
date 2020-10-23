@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SideLying">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubePlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lying Twist"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/youtubePlayerView"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/text1"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lie on your left side with your left leg extended.Bend your right leg over your left thigh.Put your left hand under your head, and your right hand on the ground in front of your abs.
+        \nContract your left adductor to lift your left leg up. Keep your core tight to prevent pelvic tilt.
+        \nDo not touch the left leg to the ground when lowering it."
+        android:textSize="20dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:layout_below="@+id/text2"/>
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breathing"
+        android:textSize="20dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/text3"/>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Breathe out when raising leg, breathe in when lowering it. "
+        android:textSize="20dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="serif"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:layout_below="@+id/text4"/>
+    <TextView
+        android:layout_below="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
+</ScrollView>
